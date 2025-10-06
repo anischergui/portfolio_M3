@@ -1,0 +1,165 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #121000;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 20px;
+
+}
+
+ 
+
+h1 {
+
+    color: #e6ee01;
+
+    font-size: 2.8em;
+
+    margin-bottom: 30px;
+
+    font-weight: 300;
+
+}
+
+ 
+
+div {
+
+    margin: 20px 0;
+
+}
+
+ 
+
+input.t {
+
+    width: 270px;
+
+    padding: 12px;
+
+    margin: 10px;
+
+    font-size: 1.2em;
+
+    border: 2px solid #e3e5c8;
+
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    color: #2d14cd;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+    transition: border 0.3s ease;
+
+}
+
+ 
+
+input.t:focus {
+
+    border-color: #1abc9c;
+
+    outline: none;
+
+}
+
+ 
+
+button {
+
+    background-color: #a29bfe; /* Violet pastel */
+
+    color: white;
+
+    padding: 12px 25px;
+
+    margin: 10px;
+
+    border: none;
+
+    border-radius: 25px;
+
+    font-size: 1em;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+ 
+
+button:hover {
+
+    background-color: #6c5ce7;
+
+    box-shadow: 0px 4px 15px rgba(108, 92, 231, 0.4);
+
+}
+
+ 
+
+button:active {
+
+    background-color: #5e4dbf;
+
+}
+
+ 
+
+input[readonly] {
+
+    background-color: #ecf0f1;
+
+}
+
+ 
+
+input#t3 {
+
+    border: 2px solid #00cec9; /* Turquoise pastel pour le résultat */
+
+    background-color: #e8f8f5;
+
+}
+
+ 
+
+input#t4 {
+
+    border: 2px solid #fdcb6e; /* Jaune pastel pour la parité */
+
+    background-color: #fff7e6;
+
+}
+
+ 
+
+input.t::placeholder {
+
+    color: #7f8c8d;
+
+    font-style: italic;
+
+}
+
+ 
+
+/* Focus sur les boutons */
+
+button:focus {
+
+    outline: none;
+
+    box-shadow: 0 0 10px rgba(175, 122, 197, 0.6);
+
+}
